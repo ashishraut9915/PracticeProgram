@@ -7,7 +7,7 @@ public class CharacterFrequency
         String str = "Study Tonight";  
         int[] freq = new int[str.length()];  
         System.out.println("The entered string is "+str);
-        //Convert the given string into character array  
+         
         char str1[] = str.toCharArray();            
         for(int i = 0; i <str.length(); i++) 
         {  
@@ -18,12 +18,12 @@ public class CharacterFrequency
                 {  
                     freq[i]++;  
                       
-                    //Set str1[j] to 0 to avoid printing visited character  
+                    
                     str1[j] = '0';
                 }  
             }  
         }            
-        //Displays the characters and their corresponding frequency  
+          
         System.out.println("Frequencies of the characters in the string are as below: "); 
         System.out.println("Characters  frequencies");  
         for(int i = 0; i <freq.length; i++) 
